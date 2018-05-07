@@ -1,0 +1,25 @@
+//Number of Nodes: 3+2+7=12
+.model lecture_circuit
+.inputs A B C
+.outputs K L
+.wire_load_slope 0.00
+.names A B D
+10 1
+.names B C E
+01 1
+.names A F
+0 1
+.names E G
+01 1
+.names C H
+0 1
+.names D F G I
+1-0 1
+01- 1
+.names G H J
+10 1
+.names I J K
+00 1
+.names J H L
+11 1
+.end

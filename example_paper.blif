@@ -1,0 +1,26 @@
+.model paper_circuit
+.inputs in0 in1 in2 in3 in4
+.outputs out0 out1
+.wire_load_slope 0.00
+.names in0 in1 g0
+0- 1
+10 1
+.names in1 in2 g1
+0- 1
+10 1
+.names g1 in3 g2
+0- 1
+10 1
+.names g1 in4 g3
+0- 1
+10 1
+.names in2 g4
+0- 1
+10 1
+.names g0 g2 out0
+0- 1
+10 1
+.names g2 g3 out1
+0- 1
+10 1
+.end
